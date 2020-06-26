@@ -1,0 +1,49 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: #b3cce6;
+}
+
+.firstrowcol {
+	background-color: #ffd633;
+	border: 1px solid #ff9900;
+	text-align: center;
+}
+
+.secondrow {
+	background-color: #ffff66;
+	border: 1px dashed white;
+	text-align: center;
+}
+
+.nestedcol1 {
+	background-color: #49d049;
+	border: 3px solid brown;
+}
+
+.nestedcol2 {
+	background-color: #c2efc2;
+	border: 3px solid brown;
+}
+
+.cardsample {
+	/*width: 18rem;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.cardimg {
+	height: 200px;
+	object-fit: cover;
+	object-position: 50 50;
+}
+
+.cardimg2 {
+	height: 200px;
+	object-fit: cover;
+	object-position: 0 50;
+}

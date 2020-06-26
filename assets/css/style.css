@@ -1,0 +1,365 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: #ff9999;
+}
+
+.icon {
+	font-size: 35px;
+	color: pink;
+}
+
+#logo {
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+}
+
+
+.icon {
+	font-size: 25px;
+	padding-right: 5px;
+}
+
+.gallery {
+	background-color: lightgrey;
+	opacity: 80%;
+	text-align: center;
+	margin-top: 30px;
+	/*margin-left: 10px;*/
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.imgs {
+	margin: 10px;
+}
+
+#galleryfont {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+}
+
+.cardimg {
+	height: 200px;
+	object-fit: cover;
+}
+
+.cardimgsw {
+	height: 200px;
+	object-fit: cover;
+	object-position: 0 0; 
+}
+
+.welcome {
+	background-color: #ff6666;
+	opacity: 80%;
+	border: 2px solid white;
+	color: black;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	padding: 10px;
+}
+
+.description {
+	font-size: 20px;
+}
+
+
+.login {
+	background-color: #cc99ff;
+	/*opacity: 90%;*/
+	margin: 10px;
+	/*margin-top: 25px; */
+	/*margin-left: 45px;*/
+	text-align: center;
+	padding: 10px;
+	/*border: 1px solid black;*/
+	border-radius: 10px 10px 10px 10px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.loginbtn {
+	margin-top: 15px;
+}
+
+.loginemail {
+	margin-top: 10px;
+}
+
+.loginpassword {
+	margin-top: 10px;
+}
+
+.Email {
+	margin-top: 10px;
+}
+
+.Password {
+	margin-top: 10px;
+}
+
+.signin {
+	/*background-color: #ffd633;*/
+	/*margin: 10px;*/
+	/*margin-top: 25px; */
+	/*margin-left: 45px;*/
+	/*text-align: center;*/
+	padding: 10px;
+	/*border: 2px solid #e6b800;*/
+	font-family: 'Dancing Script', cursive;
+}
+
+.footer {
+	background-color: #990000;
+	height: 50px;
+	margin-top: 15px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: white;
+	padding: 13px;
+}
+
+#HAC {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px; 
+}
+
+.landingpage {
+	/*height: 600px;*/
+}
+
+.welcometext {
+	/*background-color: #cc99ff;*/
+	color: white;
+	text-decoration: underline overline;
+	text-shadow: 3px 3px black;
+	font-size: 70px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	margin-top: 175px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.getstartedcontainer {
+	/*background-color: pink;*/
+	text-align: center;
+	margin-bottom: 175px;
+}
+
+.auimg {
+	height: 400px;
+}
+
+.aucontentcontainer {
+	margin-top: 30px;
+	/*background-color: lightgrey;*/
+}
+
+.auimgcontainer {
+	/*margin: 23px;*/
+	margin-bottom: 40px;
+}
+
+.auparagraph {
+	background-color: lightgrey;
+	opacity: 90%;
+	text-align: center;
+	padding: 80px;
+	/*margin: 23px;*/
+	margin-bottom: 40px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.contactstext {
+	background-color: #cc99ff;
+	text-align: center;
+	height: 50px;
+	margin: 30px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	padding: 5px;
+	border: 1px solid white;
+}
+
+.contactno {
+	background-color: lightgrey;
+	text-align: center;
+	margin: 30px;
+	font-family: 'Dancing Script', cursive;
+	/*font-size: 25px;*/
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.contactscontentcontainer {
+	margin-top: 95px;
+}
+
+.contactsfooter {
+	margin-top: 85px;
+	background-color: #990000;
+	height: 50px;
+	/*margin-top: 15px;*/
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: white;
+	padding: 15px;
+}
+
+.mpcard {
+	height: 750px;
+	font-size: 17px;
+	padding: 5px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.moreimgs {
+	height: 400px;
+}
+
+.moreinfo {
+	background-color: black;
+	opacity: 75%;
+	margin-top: 20px;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Dancing Script', cursive;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 20px;
+	color: white;
+}
+
+.customerservice {
+	background-color: black;
+	opacity: 75%;
+	margin-top: 20px;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Dancing Script', cursive;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 25px;
+	color: white;
+}
+
+.csp {
+	background-color: white;
+	opacity: 75%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	margin: 10px;
+	padding: 5px; 
+	border-radius: 5px 5px 5px 5px;
+}
+
+.rpsignin {
+	background-color: lightgrey;
+	opacity: 70%;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.signinform {
+	background-color: #ff5050;
+	opacity: 90%;
+	border-radius: 15px;
+	/*text-align: center;*/
+	padding: 15px;
+	margin: 10px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.rpformcontent {
+	margin: 5px;
+}
+
+.items {
+	background-color: #cc99ff;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.cartimg {
+	height: 200px;
+	margin: 5px;
+}
+
+.carttext {
+	background-color: lightgrey;
+	margin: 5px;
+	padding: 30px;
+	border-radius: 5px;
+	font-size: 22px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+
+.cartprice {
+	background-color: #ff6666;
+	margin: 5px;
+	padding: 30px;
+	border-radius: 5px;
+	font-size: 22px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+
+.cartselect {
+	background-color: #ff6666;
+	font-family: 'Dancing Script', cursive;
+	border-radius: 5px;
+	padding: 2px;
+	text-align: center;
+}
+
+.swsidebar {
+	background-color: white;
+	opacity: 75%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+a.gallerylink {
+	color: black;
+}
+
+.galleryimg {
+	height: 300px;
+}
+
+.productimg {
+	height: 200px;
+}
+
+.womentopproduct {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	padding: 5px;
+}
+
+.Sale {
+	text-decoration: line-through;
+}
+
+.notavailable {
+	background-color: #cc99ff;
+	opacity: 80%;
+	/*height: 600px;*/
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+}
