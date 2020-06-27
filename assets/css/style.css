@@ -363,3 +363,9 @@ a.gallerylink {
 	font-family: 'Dancing Script', cursive;
 	font-size: 30px;
 }
+
+@media only screen and (max-width: 992px){
+	.cardimg {
+		object-position: 0% 0%;
+	}
+}
